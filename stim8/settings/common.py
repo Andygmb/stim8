@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Django settings for {{project_name}} project.
+Django settings for stim8 project.
 
 
 For the full list of settings and their values, see
@@ -183,10 +183,10 @@ MEDIA_URL = '/media/'
 
 # URL Configuration
 # ------------------------------------------------------------------------------
-ROOT_URLCONF = '{{project_name}}.urls'
+ROOT_URLCONF = 'stim8.urls'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#wsgi-application
-WSGI_APPLICATION = '{{project_name}}.wsgi.application'
+WSGI_APPLICATION = 'stim8.wsgi.application'
 
 # Location of root django.contrib.admin URL,
 ADMIN_URL = r'^admin/'
